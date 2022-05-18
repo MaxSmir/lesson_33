@@ -80,6 +80,7 @@ public:
         m_pEffect->SetColor(2, Vector4f(1.0f, 0.5f, 1.0f, 0.0f));
         m_pEffect->SetColor(3, Vector4f(1.0f, 1.0f, 1.0f, 0.0f));
 
+
         m_pMesh = new Mesh();
 
         if (!m_pMesh->LoadMesh("C:/Users/sofya/source/repos/lr5 IikG/lesson 33/Content/spider.obj")) {
